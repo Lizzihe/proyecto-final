@@ -4,12 +4,46 @@
     margin: 0%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
+    #titulo {
+        font-size: 20px;
+    }
+
+    nav {
+        font-size: 16px;
+    }
+
+    #tarjetas .card {
+        width: 55%;
+        margin: 2%;
+    }
+    .card img {
+        max-width: 80%;
+          height: auto; 
+          margin: 2%;  
+    }
 }
 
-@media (min-width: 600px) {
-}
+@media (max-width: 480px) {
+    #titulo {
+        font-size: 6px;
+        width: 50%;
+        height: 6vh;
+    }
 
+    nav {
+        font-size: 6px;
+    }
+
+    #tarjetas .card {
+        width: 75%;
+        margin: 2%
+    }
+    .card img {
+        max-width: 70%;
+        margin: 2%;  
+    }
+}
 
 #titulo {
     color: rgb(150, 94, 240);
@@ -33,7 +67,7 @@ nav {
 }
 
 #tarjetas {
-    background-color: rgb(255, 255, 255);
+   background-color: rgb(255, 255, 255);
    display: flex;
    flex-wrap: wrap;
 }
